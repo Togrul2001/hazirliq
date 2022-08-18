@@ -7,14 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <input id="menim-inputum">
+    <!-- bax querySelectorlarnan islemeyin mindeden yolu var gel gosterim  -->
+    <!-- PS: bilirem teze baslamisan deye hem men basa sala bilmirem hemde ozun cetinlik cekirem. -->
+    <p class="menim-classim">Birinci p</p>
+    <p class="menim-classim"> Ikinci p</p>
+    <input data-product-id="1">
+    <p>Esger menim daydayimdi</p>
     <script>
-        console.log(document.querySelector(`#menim-inputum`))
+        console.log("data istifadesi",document.querySelector(`input[data-product-id='1']`))
+        console.log("class istifadesi",document.querySelector(`.menim-classim`))
+        console.log("class ile all istifadesi",document.querySelectorAll(`.menim-classim`))
         // bu haqqda ne yazdinsa ders haqqinda burda qalacag basqa seyi salmiyacagsan bura bu foldere
         //dersi qutaranan sonra nece push edirsen
+        //  ~/Desktop/projects/tecrube  bu directoryde oldugundan emin ol
         // git add .
         // git commit -m "mesajivi burda yazirsan ki bu commitde ne etmisen Meselen querySelectorlar "
         // git push
+        // git bash linuxun kommandlari ile isleyir deye mene rahatdi + sen onsuzda evvel axir linuxa kecmelisen yadaki macosa windowsda developer islemez.
+        
 </script>
 </body>
 </html>

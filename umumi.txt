@@ -1,0 +1,18 @@
+1. Dom ile elementleri goturmek(queryselector, queryselectorall)
+2. Addeventlistener - input, change
+3. Formdan datalari goturmek
+4. Elementden atributlari goturmek
+5. Input, select, radio box, check box - dan valueleri goturmek
+6. Input, select, radio box, check box - a valueni set elemek
+
+
+
+
+Dersler
+1.Dom selectorlari ile islemek querySelector() ,querySelectorAll() 
+querySelectorun icinde yazilan css selectorudur ve css selectorunun muxtelif  novleri var asagidakilardir
+* data lar ile islemek meselen *[data-product-id], input[data-product-id], input[data-product-id='1'],
+ .menim-classim[data-nese-id='2'],#menim-idim[data-nese-id="2"] ve s
+* class lar ile islemek meselen *.btn,input.btn,ul>li, li.item
+* id ler ile islemek meselen : #menim-id-im
+--- bulari ele ozun indi
